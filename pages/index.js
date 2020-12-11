@@ -1,20 +1,23 @@
 import React from 'react';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import IconButton from '@material-ui/core/IconButton';
-import Typography from '@material-ui/core/Typography';
-import InputBase from '@material-ui/core/InputBase';
-import { fade, makeStyles } from '@material-ui/core/styles';
-import MenuIcon from '@material-ui/icons/Menu';
-import SearchIcon from '@material-ui/icons/Search';
-import PrimarySearchAppBar from "../components/navigation";
+import Head from 'next/head';
+import Layout from '../components/layout/layout';
+import Promotions from '../components/home_components/promotions';
+import Top from '../components/home_components/top_products';
 
-export default function SearchAppBar() {
+export default function Home() {
   // const classes = useStyles();
 
   return (
     <div>
-      <PrimarySearchAppBar />
+      <Head>
+        <title>Cristak bazaar</title>
+      </Head>
+      <main>
+        <Layout>
+          <Promotions />
+          <Top />
+        </Layout>
+      </main>
     </div>
-    )
+  );
 }
