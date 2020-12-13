@@ -7,14 +7,19 @@ import Image from 'next/image';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    width: 1280,
-    marginLeft: 20,
+    width: 1080,
+    height: 500,
+    marginLeft: 100,
   },
   paper: {
     padding: theme.spacing(2),
     textAlign: 'center',
     color: theme.palette.text.secondary,
+    height: 250,
   },
+  smallAds: {
+    marginTop: 10,
+  }
 }));
 
 export default function Promotions() {
@@ -26,8 +31,18 @@ export default function Promotions() {
         <Grid item xs>
           <Paper className={classes.paper}>Hello, Akin Wilderman</Paper>
         </Grid>
-        <Grid item xs={9}>
-          <Image src="/image/1_cristak.gif" width={800} height={432} />
+        <Grid item xs={6}>
+          <Image src="/image/1_cristak.gif" width={800} height={500} />
+        </Grid>
+        <Grid item xs>
+          <div>
+            <div>
+              <Paper className={classes.paper}>Hello, Akin Wilderman</Paper>
+            </div>
+            <div className={classes.smallAds}>
+              <Paper className={classes.paper}>Hello, Akin Wilderman</Paper>
+            </div>
+          </div>
         </Grid>
       </Grid>
     </div>

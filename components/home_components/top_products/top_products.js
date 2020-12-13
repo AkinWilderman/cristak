@@ -7,8 +7,9 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    width: 1280,
-    marginLeft: 20,
+    width: 1080,
+    marginLeft: 100,
+    marginTop: 50,
   },
 }));
 
@@ -24,13 +25,25 @@ export default function Top() {
             </h3>
           </div>
           <div>
-            <Grid container spacing={3}>
-              <Grid item xs={2}><h1> 1 </h1></Grid>
-              <Grid item xs={2}><h1> 1 </h1></Grid>
-              <Grid item xs={2}><h1> 1 </h1></Grid>
-              <Grid item xs={2}><h1> 1 </h1></Grid>
-              <Grid item xs={2}><h1> 1 </h1></Grid>
-              <Grid item xs={2}><h1> 1 </h1></Grid>
+            <Grid container spacing={1}>
+              <Grid item xs={2}>
+                <Paper className={classes.paper}>Hello, Akin Wilderman</Paper>
+              </Grid>
+              <Grid item xs={2}>
+                <Paper className={classes.paper}>Hello, Akin Wilderman</Paper>
+              </Grid>
+              <Grid item xs={2}>
+                <Paper className={classes.paper}>Hello, Akin Wilderman</Paper>
+              </Grid>
+              <Grid item xs={2}>
+                <Paper className={classes.paper}>Hello, Akin Wilderman</Paper>
+              </Grid>
+              <Grid item xs={2}>
+                <Paper className={classes.paper}>Hello, Akin Wilderman</Paper>
+              </Grid>
+              <Grid item xs={2}>
+                <Paper className={classes.paper}>Hello, Akin Wilderman</Paper>
+              </Grid>
             </Grid>
           </div>
         </div>
