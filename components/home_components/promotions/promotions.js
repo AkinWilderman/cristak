@@ -7,8 +7,8 @@ import Image from 'next/image';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    width: 1024,
-    marginLeft: 50,
+    width: 1280,
+    marginLeft: 20,
   },
   paper: {
     padding: theme.spacing(2),
