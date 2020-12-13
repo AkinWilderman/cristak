@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../../styles/top.module.css';
+import styles from '../../../styles/top.module.css';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles';
@@ -19,10 +19,10 @@ export default function Top() {
     <div className={classes.root}>
       <Paper>
         <div>
-          <div className="main">
-            <h3>
+          <div>
+            <h4 className={styles.main}>
               Top Products
-            </h3>
+            </h4>
           </div>
           <div>
             <Grid container spacing={1}>

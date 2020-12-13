@@ -51,3 +51,8 @@ a {
 .searchButton {
   height: 36px;
 }
+
+.main {
+  margin-top: 50px;
+  width: 1024px;
+}
