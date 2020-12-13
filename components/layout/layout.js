@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from '../../styles/layout.module.css';
 import Aux from './Auxy';
-import PrimarySearchAppBar from '../home_components/navigation';
-import Categories from '../home_components/category/categories';
+import PrimarySearchAppBar from '../navigation/navigation';
+import Categories from '../category/categories';
 
 // eslint-disable-next-line react/prop-types
 export default function Layout({ children }) {
