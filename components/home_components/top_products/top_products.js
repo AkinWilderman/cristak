@@ -21,7 +21,7 @@ export default function Top() {
         <div>
           <div>
             <h4 className={styles.main}>
-              Top Products
+              Top Selling Products
             </h4>
           </div>
           <div>
