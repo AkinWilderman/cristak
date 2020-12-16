@@ -7,7 +7,9 @@ import Image from 'next/image';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    marginLeft: 100,
+    marginLeft: 60,
+    height: 500,
+    width: 1200
   },
   paper: {
     padding: theme.spacing(2),
@@ -18,10 +20,6 @@ const useStyles = makeStyles((theme) => ({
   smallAds: {
     marginTop: 10,
   },
-  mainGrid: {
-    height: 500,
-    width: 1080,
-  }
 }));
 
 export default function Promotions() {
@@ -29,20 +27,20 @@ export default function Promotions() {
 
   return (
     <div className={classes.root}>
-      <Grid container spacing={3} className={classes.mainGrid}>
+      <Grid container spacing={3}>
         <Grid item xs>
           <Paper className={classes.paper}>Hello, Akin Wilderman</Paper>
         </Grid>
         <Grid item xs={6}>
-          <Image src="/image/1_cristak.gif" width={900} height={637} />
+          <Image src="/image/jumia.gif" width={700} height={450} />
         </Grid>
         <Grid item xs>
           <div>
             <div>
-              <Paper className={classes.paper}>Hello, Akin Wilderman</Paper>
+              <Image src="/image/watch.jpg" height={200} width={300} />
             </div>
             <div className={classes.smallAds}>
-              <Paper className={classes.paper}>Hello, Akin Wilderman</Paper>
+              <Image src="/image/flash.jpg" height={200} width={300} />
             </div>
           </div>
         </Grid>

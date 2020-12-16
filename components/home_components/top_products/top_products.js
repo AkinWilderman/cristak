@@ -1,15 +1,24 @@
 import React from 'react';
-import styles from '../../../styles/top.module.css';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles';
+import Link from 'next/link';
+import styles from '../../../styles/top.module.css';
+import SimpleProduct from '../../single_product/simple';
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    width: 1080,
-    marginLeft: 100,
-    marginTop: 50,
+    width: 1200,
+    marginLeft: 60,
+  },
+  grid: {
+    paddingLeft: 10,
+    paddingRight: 10,
+  },
+  seeMore: {
+    flexDirection: 'row',
+    alignContent: 'space-between',
   },
 }));
 
@@ -19,30 +28,35 @@ export default function Top() {
     <div className={classes.root}>
       <Paper>
         <div>
-          <div>
-            <h4 className={styles.main}>
-              Top Selling Products
-            </h4>
+          <div className={classes.seeMore}>
+            <div>
+              <h4 className={styles.main}>
+                Top Selling Products
+              </h4>
+            </div>
+            <div>
+              <Link href="#"><a> See more </a></Link>
+            </div>
           </div>
           <div>
-            <Grid container spacing={1}>
+            <Grid container spacing={1} className={classes.grid}>
               <Grid item xs={2}>
-                <Paper className={classes.paper}>Hello, Akin Wilderman</Paper>
+                <SimpleProduct />
               </Grid>
               <Grid item xs={2}>
-                <Paper className={classes.paper}>Hello, Akin Wilderman</Paper>
+                <SimpleProduct />
               </Grid>
               <Grid item xs={2}>
-                <Paper className={classes.paper}>Hello, Akin Wilderman</Paper>
+                <SimpleProduct />
               </Grid>
               <Grid item xs={2}>
-                <Paper className={classes.paper}>Hello, Akin Wilderman</Paper>
+                <SimpleProduct />
               </Grid>
               <Grid item xs={2}>
-                <Paper className={classes.paper}>Hello, Akin Wilderman</Paper>
+                <SimpleProduct />
               </Grid>
               <Grid item xs={2}>
-                <Paper className={classes.paper}>Hello, Akin Wilderman</Paper>
+                <SimpleProduct />
               </Grid>
             </Grid>
           </div>

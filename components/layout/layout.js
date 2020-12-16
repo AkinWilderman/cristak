@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import styles from '../../styles/layout.module.css';
 import Aux from './Auxy';
 import PrimarySearchAppBar from '../navigation/navigation';
@@ -10,7 +11,7 @@ export default function Layout({ children }) {
     <Aux>
       <div>
         <div className="headerAds">
-          <h1> Hello, welcome to Cristak bazaar. Image or flash ads goes here. Akin says hi! </h1>
+          <Image src="/image/leaderboard.jpg" width={1170} height={60} />
         </div>
         <div className="navPosition">
           <div>

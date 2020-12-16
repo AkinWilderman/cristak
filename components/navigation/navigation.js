@@ -15,6 +15,7 @@ import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreIcon from '@material-ui/icons/MoreVert';
 import Button from '@material-ui/core/Button';
 import OutlinedInput from '@material-ui/core/OutlinedInput';
+import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 
 const useStyles = makeStyles((theme) => ({
   grow: {
@@ -192,11 +193,13 @@ export default function PrimarySearchAppBar() {
                 <MailIcon />
               </Badge>
             </IconButton>
+            <h6> Messages </h6>
             <IconButton aria-label="show 17 new notifications" color="inherit">
               <Badge badgeContent={17} color="secondary">
                 <NotificationsIcon />
               </Badge>
             </IconButton>
+            <h6> Notifications </h6>
             <IconButton
               edge="end"
               aria-label="account of current user"
@@ -207,6 +210,13 @@ export default function PrimarySearchAppBar() {
             >
               <AccountCircle />
             </IconButton>
+            <h6> Account </h6>
+            <IconButton aria-label="show cart items" color="inherit">
+              <Badge badgeContent={2} color="secondary">
+                <AddShoppingCartIcon />
+              </Badge>
+            </IconButton>
+            <h6> Cart </h6>
           </div>
           <div className={classes.sectionMobile}>
             <IconButton

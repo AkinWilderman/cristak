@@ -4,9 +4,9 @@ export default function Categories() {
   return (
     <div>
       <div className="category">
-        <h4 className="categoryText">Health&Beauty  </h4>
-        <h4 className="categoryText">Home&Office </h4>
-        <h4 className="categoryText">Phone &Tablets </h4>
+        <h4 className="categoryText">Health & Beauty  </h4>
+        <h4 className="categoryText">Home & Office </h4>
+        <h4 className="categoryText">Phone & Tablets </h4>
         <h4 className="categoryText">Computing</h4>
         <h4 className="categoryText">Electronics</h4>
         <h4 className="categoryText">Fashion</h4>
