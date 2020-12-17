@@ -11,7 +11,7 @@ export default function Layout({ children }) {
     <Aux>
       <div>
         <div className="headerAds">
-          <Image src="/image/leaderboard.jpg" width={1170} height={60} />
+          <Image src="/image/leaderboard2.png" width={1400} height={60} />
         </div>
         <div className="navPosition">
           <div>
