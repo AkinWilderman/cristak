@@ -29,7 +29,7 @@ export default function Top() {
       <Paper>
         <div>
           <div className={classes.seeMore}>
-            <div>
+            <div className="flex">
               <h4 className={styles.main}>
                 Top Selling Products
               </h4>

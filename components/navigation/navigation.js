@@ -16,6 +16,7 @@ import MoreIcon from '@material-ui/icons/MoreVert';
 import Button from '@material-ui/core/Button';
 import OutlinedInput from '@material-ui/core/OutlinedInput';
 import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
+import Image from 'next/image';
 
 const useStyles = makeStyles((theme) => ({
   grow: {
@@ -167,9 +168,7 @@ export default function PrimarySearchAppBar() {
     <div className={classes.grow}>
       <AppBar position="static" color="transparent" elevation={0}>
         <Toolbar>
-          <Typography className={classes.title} variant="h6" noWrap>
-            CRISTAK bazaar
-          </Typography>
+          <Image src="/image/logo/cristak.png" width={250} height={50} />
           <div className={classes.search}>
             <div className={classes.searchIcon}>
               <SearchIcon />

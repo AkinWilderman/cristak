@@ -31,16 +31,16 @@ export default function Promotions() {
         <Grid item xs>
           <Paper className={classes.paper}>Hello, Akin Wilderman</Paper>
         </Grid>
-        <Grid item xs={6}>
-          <Image src="/image/jumia.gif" width={700} height={450} />
+        <Grid item xs={7}>
+          <Image src="/image/jumia.gif" width={700} height={475} />
         </Grid>
         <Grid item xs>
           <div>
             <div>
-              <Image src="/image/watch.jpg" height={200} width={300} />
+              <Image src="/image/watch.jpg" height={245} width={250} />
             </div>
             <div className={classes.smallAds}>
-              <Image src="/image/flash.jpg" height={200} width={300} />
+              <Image src="/image/flash.jpg" height={245} width={250} />
             </div>
           </div>
         </Grid>

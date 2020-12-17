@@ -11,6 +11,9 @@ const useStyles = makeStyles({
   root: {
     maxWidth: 345,
   },
+  priceTag: {
+    color: '#000000'
+  },
 });
 
 export default function SimpleProduct() {
@@ -23,16 +26,19 @@ export default function SimpleProduct() {
           component="img"
           alt="Contemplative Reptile"
           height="140"
-          image="/image/bluetooth.png"
+          image="/image/sandisk.jpg"
           title="Contemplative Reptile"
         />
       </CardActionArea>
       <CardActions>
         <CardContent>
-          <Typography gutterBottom color="textSecondary" variant="h5" component="p">
-            Lizard
+          <Typography gutterBottom color="textSecondary" variant="body1" component="p" display="inline">
+            Best Sandisk 32GB flash usb drive
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography variant="body2" color="textSecondary" component="p" className={classes.priceTag}>
+            ₦ 10,000
+          </Typography>
+          <Typography variant="body2" color="textSecondary" component="p" className="mainPrice">
             ₦ 10,000
           </Typography>
         </CardContent>
