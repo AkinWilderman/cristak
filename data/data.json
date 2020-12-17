@@ -1,0 +1,46 @@
+{
+  "product": [
+    {
+      "url": "/images/flash",
+      "title": "32GB flash sandisk drive usb",
+      "newPrice": "3,000",
+      "oldPrice": "7,000",
+      "discount": 57
+    },
+    {
+      "url": "/images/bluetooth.jpg",
+      "title": "best high bluetooth speaker",
+      "newPrice": "10,000",
+      "oldPrice": "13,000",
+      "discount": 18
+    },
+    {
+      "url": "/images/jumia.gif",
+      "title": "32GB flash sandisk drive usb",
+      "newPrice": "10,000",
+      "oldPrice": "13,000",
+      "discount": 18
+    },
+    {
+      "url": "/images/jumia.gif",
+      "title": "32GB flash sandisk drive usb",
+      "newPrice": "10,000",
+      "oldPrice": "13,000",
+      "discount": 18
+    },
+    {
+      "url": "/images/jumia.gif",
+      "title": "32GB flash sandisk drive usb",
+      "newPrice": "10,000",
+      "oldPrice": "13,000",
+      "discount": 18
+    },
+    {
+      "url": "/images/jumia.gif",
+      "title": "32GB flash sandisk drive usb",
+      "newPrice": "10,000",
+      "oldPrice": "13,000",
+      "discount": 18
+    }
+  ]
+}
