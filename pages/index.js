@@ -3,6 +3,8 @@ import Head from 'next/head';
 import Layout from '../components/layout/layout';
 import Promotions from '../components/home_components/promotions/promotions';
 import Top from '../components/home_components/top_products/top_products';
+import Recommended from '../components/home_components/recommended_products/recommended';
+import Featured from '../components/home_components/featured_products/featured';
 
 export default function Home() {
   // const classes = useStyles();
@@ -16,6 +18,8 @@ export default function Home() {
         <Layout>
           <Promotions />
           <Top />
+          <Recommended />
+          <Featured />
         </Layout>
       </main>
     </div>

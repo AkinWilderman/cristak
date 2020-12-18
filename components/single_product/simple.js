@@ -16,7 +16,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function SimpleProduct() {
+export default function SimpleProduct(props) {
   const classes = useStyles();
 
   return (

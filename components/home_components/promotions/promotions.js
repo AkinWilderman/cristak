@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     marginLeft: 60,
-    height: 500,
+    height: 600,
     width: 1200
   },
   paper: {
@@ -32,15 +32,18 @@ export default function Promotions() {
           <Paper className={classes.paper}>Hello, Akin Wilderman</Paper>
         </Grid>
         <Grid item xs={7}>
-          <Image src="/image/jumia.gif" width={700} height={475} />
+          <div>
+            <Image src="/image/nails.png" width={700} height={245} />
+            <Image src="/image/year.png" width={700} height={245} />
+          </div>
         </Grid>
         <Grid item xs>
           <div>
             <div>
-              <Image src="/image/watch.jpg" height={245} width={250} />
+              <Image src="/image/watch.jpg" height={250} width={250} />
             </div>
             <div className={classes.smallAds}>
-              <Image src="/image/flash.jpg" height={245} width={250} />
+              <Image src="/image/jumsa.gif" height={250} width={250} />
             </div>
           </div>
         </Grid>
