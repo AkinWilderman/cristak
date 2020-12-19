@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     marginLeft: 60,
-    height: 600,
+    height: 500,
     width: 1200
   },
   paper: {
@@ -17,8 +17,11 @@ const useStyles = makeStyles((theme) => ({
     color: theme.palette.text.secondary,
     height: 200,
   },
+  div: {
+    height: 500,
+  },
   smallAds: {
-    marginTop: 10,
+    marginTop: 19,
   },
 }));
 
@@ -31,19 +34,19 @@ export default function Promotions() {
         <Grid item xs>
           <Paper className={classes.paper}>Hello, Akin Wilderman</Paper>
         </Grid>
-        <Grid item xs={7}>
-          <div>
-            <Image src="/image/nails.png" width={700} height={245} />
-            <Image src="/image/year.png" width={700} height={245} />
+        <Grid item xs={6}>
+          <div className={classes.div}>
+            <Image src="/image/nails.png" width={600} height={245} />
+            <Image src="/image/year.png" width={600} height={245} />
           </div>
         </Grid>
         <Grid item xs>
-          <div>
+          <div className={classes.div}>
             <div>
-              <Image src="/image/watch.jpg" height={250} width={250} />
+              <Image src="/image/watch.jpg" height={245} width={300} />
             </div>
             <div className={classes.smallAds}>
-              <Image src="/image/jumsa.gif" height={250} width={250} />
+              <Image src="/image/jumsa.gif" height={245} width={300} />
             </div>
           </div>
         </Grid>

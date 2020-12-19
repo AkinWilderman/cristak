@@ -31,7 +31,7 @@ export default function Recommended() {
           <div className={classes.seeMore}>
             <div className="flex">
               <h4 className={styles.main}>
-                Top Selling Products
+                Recommended Products
               </h4>
             </div>
             <div>

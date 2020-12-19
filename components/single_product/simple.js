@@ -26,7 +26,7 @@ export default function SimpleProduct(props) {
           component="img"
           alt="Contemplative Reptile"
           height="140"
-          image="/image/sandisk.jpg"
+          image="/image/watch.jpg"
           title="Contemplative Reptile"
         />
       </CardActionArea>
