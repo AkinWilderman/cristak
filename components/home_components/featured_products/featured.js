@@ -11,6 +11,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     width: 1200,
     marginLeft: 60,
+    marginTop: 20,
   },
   grid: {
     paddingLeft: 10,
@@ -28,13 +29,13 @@ export default function Featured() {
     <div className={classes.root}>
       <Paper>
         <div>
-          <div className={classes.seeMore}>
-            <div className="flex">
+          <div className="category-2">
+            <div className="category-left">
               <h4 className={styles.main}>
                 Featured Products
               </h4>
             </div>
-            <div>
+            <div className="category-right">
               <Link href="#"><a> See more </a></Link>
             </div>
           </div>

@@ -3,8 +3,8 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles';
 import Link from 'next/link';
-import styles from '../../../styles/top.module.css';
-import SimpleProduct from '../../single_product/simple';
+import styles from '../../styles/top.module.css';
+import SimpleProduct from '../../components/single_product/simple';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Recommended() {
+export default function Top() {
   const classes = useStyles();
   return (
     <div className={classes.root}>
@@ -32,11 +32,11 @@ export default function Recommended() {
           <div className="category-2">
             <div className="category-left">
               <h4 className={styles.main}>
-                Recommended Products
+                Top Selling Products
               </h4>
             </div>
             <div className="category-right">
-              <Link href="#"><a> See more </a></Link>
+              <Link href="/pages/product/product"><a> See more </a></Link>
             </div>
           </div>
           <div>

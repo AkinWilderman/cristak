@@ -5,6 +5,7 @@ import Promotions from '../components/home_components/promotions/promotions';
 import Top from '../components/home_components/top_products/top_products';
 import Recommended from '../components/home_components/recommended_products/recommended';
 import Featured from '../components/home_components/featured_products/featured';
+import Footer from '../components/footer/footer';
 
 export default function Home() {
   // const classes = useStyles();
@@ -21,6 +22,7 @@ export default function Home() {
           <Recommended />
           <Featured />
         </Layout>
+        <Footer />
       </main>
     </div>
   );
