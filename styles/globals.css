@@ -27,6 +27,11 @@ a {
   background-color: white;
 }
 
+@media only screen and (max-width: 600px){
+  .headerAds {
+    display: none;
+  }
+}
 
 .headerAds {
   align-content: center;
@@ -85,6 +90,18 @@ a {
 @media only screen and (min-width: 992px) {
   .searchButton {
     height: 36px;
+  }
+}
+
+@media only screen and (min-width: 992px){
+  .search-div {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .desktop-search {
+    display: none;
   }
 }
 
