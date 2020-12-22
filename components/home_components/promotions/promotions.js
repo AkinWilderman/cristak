@@ -8,16 +8,15 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     marginLeft: 60,
-    height: 500,
+    height: 420,
     width: 1200,
     [theme.breakpoints.down('sm')]: {
       display: 'none',
     },
   },
   paper: {
-    padding: theme.spacing(2),
+    padding: theme.spacing(1),
     textAlign: 'center',
-    color: theme.palette.text.secondary,
     height: 200,
   },
   div: {
@@ -37,21 +36,15 @@ export default function Promotions() {
         <Grid item xs>
           <Paper className={classes.paper}>Hello, Akin Wilderman</Paper>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={7}>
           <div className={classes.div}>
-            <Image src="/image/nails.png" width={600} height={245} />
-            <Image src="/image/year.png" width={600} height={245} />
+            <Image src="/image/nails.png" width={700} height={250} />
+            <Image src="/image/year.png" width={700} height={150} />
           </div>
         </Grid>
         <Grid item xs>
-          <div className={classes.div}>
-            <div>
-              <Image src="/image/watch.jpg" height={245} width={300} />
-            </div>
-            <div className={classes.smallAds}>
-              <Image src="/image/jumsa.gif" height={245} width={300} />
-            </div>
-          </div>
+          <Paper className={classes.paper}><Image src="/image/jumia.gif" width={250} height={220} /></Paper>
+          <Paper className={classes.paper}><Image src="/image/jumsa.gif" width={250} height={220} /></Paper>
         </Grid>
       </Grid>
     </div>
