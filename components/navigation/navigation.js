@@ -38,10 +38,10 @@ const useStyles = makeStyles((theme) => ({
       backgroundColor: fade(theme.palette.common.white, 0.25),
     },
     marginRight: theme.spacing(2),
-    marginLeft: 0,
+    marginLeft: 10,
     width: '100%',
     [theme.breakpoints.up('sm')]: {
-      marginLeft: theme.spacing(10),
+      marginLeft: theme.spacing(5),
       width: 'auto',
     },
   },
@@ -79,6 +79,12 @@ const useStyles = makeStyles((theme) => ({
       display: 'none',
     },
   },
+  searchButton: {
+    [theme.breakpoints.down('sm')]: {
+      display: 'none',
+    },
+  }
+  ,
 }));
 
 export default function PrimarySearchAppBar() {
@@ -180,7 +186,7 @@ export default function PrimarySearchAppBar() {
               }}
               inputProps={{ 'aria-label': 'search' }}
             />
-            <Button className="searchButton" variant="outlined" color="default" size="medium">
+            <Button className={classes.searchButton} variant="outlined" color="default" size="medium">
               Search
             </Button>
           </div>
@@ -226,12 +232,18 @@ export default function PrimarySearchAppBar() {
             >
               <MoreIcon />
             </IconButton>
+            <IconButton aria-label="show cart items" color="inherit">
+              <Badge badgeContent={2} color="secondary">
+                <AddShoppingCartIcon />
+              </Badge>
+            </IconButton>
+            <h6> Cart </h6>
           </div>
         </Toolbar>
       </AppBar>
       {renderMobileMenu}
       {renderMenu}
-      <hr />
+      <hr className="show-line" />
     </div>
   );
 }

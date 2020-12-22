@@ -12,6 +12,9 @@ const useStyles = makeStyles((theme) => ({
     width: 1200,
     marginLeft: 60,
     marginTop: 20,
+    [theme.breakpoints.down('sm')]: {
+      display: 'none',
+    },
   },
   grid: {
     paddingLeft: 10,

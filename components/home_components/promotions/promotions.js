@@ -9,7 +9,10 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     marginLeft: 60,
     height: 500,
-    width: 1200
+    width: 1200,
+    [theme.breakpoints.down('sm')]: {
+      display: 'none',
+    },
   },
   paper: {
     padding: theme.spacing(2),

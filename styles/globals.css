@@ -39,7 +39,7 @@ a {
   margin-left: 0;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 960px) {
   .category {
     display: none;
   }
@@ -119,4 +119,10 @@ a {
   margin-left: 0;
   margin-right: 0;
   height: 500px;
+}
+
+@media only screen and (max-width: 992px) {
+  .show-line {
+    display: none;
+  }
 }

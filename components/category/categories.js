@@ -16,7 +16,7 @@ export default function Categories() {
         <h4 className="categoryText">Baby Products</h4>
         <h4 className="categoryText">Other Categories</h4>
       </div>
-      <hr />
+      <hr className="show-line" />
     </div>
   );
 }
