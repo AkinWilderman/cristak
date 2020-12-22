@@ -80,6 +80,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   searchButton: {
+    height: 36,
     [theme.breakpoints.down('sm')]: {
       display: 'none',
     },

@@ -1,5 +1,5 @@
 import React from 'react';
-import { makeStyles} from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -11,13 +11,40 @@ const useStyles = makeStyles((theme) => ({
       display: 'none',
     },
   },
+  flex: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignContent: 'center',
+    justifyContent: 'space-between',
+    width: 1000,
+    marginLeft: 150
+  },
+  divs: {
+    marginTop: 50,
+  },
+  text: {
+    color: 'white',
+  },
 }));
 
 const Footer = () => {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <h1>Hello</h1>
+      <div className={classes.flex}>
+        <div className={classes.divs}>
+          <h5 className={classes.text}> About Cristak </h5>
+        </div>
+        <div className={classes.divs}>
+          <h5 className={classes.text}> Get Help </h5>
+        </div>
+        <div className={classes.divs}>
+          <h5 className={classes.text}> Mkae money with US </h5>
+        </div>
+        <div className={classes.divs}>
+          <h5 className={classes.text}> Sellers Hub </h5>
+        </div>
+      </div>
     </div>
   );
 };
