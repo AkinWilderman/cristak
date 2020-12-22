@@ -126,3 +126,8 @@ a {
     display: none;
   }
 }
+
+.footer-list {
+  list-style-type:none;
+  color: grey;
+}
