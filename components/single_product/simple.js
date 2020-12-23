@@ -16,7 +16,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function SimpleProduct(props) {
+const SimpleProduct = props => {
   const classes = useStyles();
 
   return (
@@ -45,4 +45,6 @@ export default function SimpleProduct(props) {
       </CardActions>
     </Card>
   );
-}
+};
+
+export default SimpleProduct;

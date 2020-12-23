@@ -21,8 +21,8 @@ const useStyles = makeStyles((theme) => ({
     paddingRight: 10,
   },
   seeMore: {
-    flexDirection: 'row',
-    alignContent: 'space-between',
+    margin: 15,
+    fontSize: 12,
   },
 }));
 
@@ -32,15 +32,17 @@ export default function Recommended() {
     <div className={classes.root}>
       <Paper>
         <div>
-          <div className="category-2">
-            <div className="category-left">
+          <div className="wrapper">
+            <span>
               <h4 className={styles.main}>
-                Recommended Products
+                Top Selling Products
               </h4>
-            </div>
-            <div className="category-right">
-              <Link href="#"><a> See more </a></Link>
-            </div>
+            </span>
+            <span className={classes.seeMore}>
+              <Link href="#">
+                <a>See more</a>
+              </Link>
+            </span>
           </div>
           <div>
             <Grid container spacing={1} className={classes.grid}>

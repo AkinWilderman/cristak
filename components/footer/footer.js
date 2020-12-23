@@ -39,7 +39,7 @@ const Footer = () => {
           <li className="footer-list">
             <Link href="#">
               <a>
-                <Typography variant="body2"  component="p">
+                <Typography variant="caption" component="p">
                   Cristak Careers
                 </Typography>
               </a>
@@ -48,7 +48,7 @@ const Footer = () => {
           <li className="footer-list">
             <Link href="#">
               <a>
-                <Typography variant="body2"  component="p">
+                <Typography variant="caption" component="p">
                   About Us
                 </Typography>
               </a>
@@ -57,7 +57,7 @@ const Footer = () => {
           <li className="footer-list">
             <Link href="#">
               <a>
-                <Typography variant="body2"  component="p">
+                <Typography variant="caption" component="p">
                   Privacy Policy
                 </Typography>
               </a>
@@ -66,7 +66,7 @@ const Footer = () => {
           <li className="footer-list">
             <Link href="#">
               <a>
-                <Typography variant="body2"  component="p">
+                <Typography variant="caption" component="p">
                   Terms and Conditions
                 </Typography>
               </a>
@@ -75,7 +75,7 @@ const Footer = () => {
           <li className="footer-list">
             <Link href="#">
               <a>
-                <Typography variant="body2"  component="p">
+                <Typography variant="caption" component="p">
                   Promotions
                 </Typography>
               </a>
@@ -84,7 +84,7 @@ const Footer = () => {
           <li className="footer-list">
             <Link href="#">
               <a>
-                <Typography variant="body2"  component="p">
+                <Typography variant="caption" component="p">
                   Souvenir Services
                 </Typography>
               </a>
@@ -93,7 +93,7 @@ const Footer = () => {
           <li className="footer-list">
             <Link href="#">
               <a>
-                <Typography variant="body2"  component="p">
+                <Typography variant="caption" component="p">
                   Souvenir printing services
                 </Typography>
               </a>
@@ -102,7 +102,7 @@ const Footer = () => {
           <li className="footer-list">
             <Link href="#">
               <a>
-                <Typography variant="body2"  component="p">
+                <Typography variant="caption" component="p">
                   Digital services
                 </Typography>
               </a>
@@ -114,7 +114,7 @@ const Footer = () => {
           <li className="footer-list">
             <Link href="#">
               <a>
-                <Typography variant="body2"  component="p">
+                <Typography variant="caption" component="p">
                   Help Center
                 </Typography>
               </a>
@@ -123,7 +123,7 @@ const Footer = () => {
           <li className="footer-list">
             <Link href="#">
               <a>
-                <Typography variant="body2"  component="p">
+                <Typography variant="caption" component="p">
                   Return a product
                 </Typography>
               </a>
@@ -132,7 +132,7 @@ const Footer = () => {
           <li className="footer-list">
             <Link href="#">
               <a>
-                <Typography variant="body2"  component="p">
+                <Typography variant="caption" component="p">
                   Report Seller or Shop Owner
                 </Typography>
               </a>
@@ -141,7 +141,7 @@ const Footer = () => {
           <li className="footer-list">
             <Link href="#">
               <a>
-                <Typography variant="body2"  component="p">
+                <Typography variant="caption" component="p">
                   Ask for a refund
                 </Typography>
               </a>
@@ -153,7 +153,7 @@ const Footer = () => {
           <li className="footer-list">
             <Link href="#">
               <a>
-                <Typography variant="body2"  component="p">
+                <Typography variant="caption" component="p">
                   Become a Seller
                 </Typography>
               </a>

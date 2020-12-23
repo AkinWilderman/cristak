@@ -5,6 +5,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Link from 'next/link';
 import styles from '../../../styles/top.module.css';
 import SimpleProduct from '../../single_product/simple';
+import data from '../../../data/products.json';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -21,8 +22,8 @@ const useStyles = makeStyles((theme) => ({
     paddingRight: 10,
   },
   seeMore: {
-    flexDirection: 'row',
-    alignContent: 'space-between',
+    margin: 15,
+    fontSize: 12,
   },
 }));
 
@@ -32,15 +33,17 @@ export default function Top() {
     <div className={classes.root}>
       <Paper>
         <div>
-          <div className="category-2">
-            <div className="category-left">
+          <div className="wrapper">
+            <span>
               <h4 className={styles.main}>
                 Top Selling Products
               </h4>
-            </div>
-            <div className="category-right">
-              <Link href="/product/product"><a> See more </a></Link>
-            </div>
+            </span>
+            <span className={classes.seeMore}>
+              <Link href="#">
+                <a>See more</a>
+              </Link>
+            </span>
           </div>
           <div>
             <Grid container spacing={1} className={classes.grid}>
