@@ -16,7 +16,7 @@ const useStyles = makeStyles({
   },
 });
 
-const SimpleProduct = props => {
+const SimpleProduct = (props) => {
   const classes = useStyles();
 
   return (
